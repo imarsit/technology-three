@@ -1,0 +1,320 @@
+extends layout
+
+block vars
+    - let title = '火星人科技'
+
+block content
+    #bd
+        #banner
+            .banner-bg
+            .flexslider
+                ul.slides
+                    li.s1
+                        img(src='/public/images/home/banner1.jpg')
+                        .ban-txt
+                            h5.animated(data-animate='fadeInDown') innovating for you
+                            h2.animated(data-animate='fadeInRight') 用整合的思想做互动
+                            h3.animated(data-animate='fadeInUp') 不只是建站，更提供有价值的思路和整体服务
+                    li.s2
+                        img(src='/public/images/home/banner2.jpg')
+                        .ban-txt
+                            h2.animated(data-animate='fadeInRight') 9年资深网站建设经验
+                            h3.animated(data-animate='fadeInDown') WEBSITE DESIGN
+                            h4.animated(data-animate='fadeInUp') 我们专注于品质化高端网站构建，企业品牌在网站中的整体树立，网络互动的体验，以及在手机等移动端的优质呈现。
+                            h6.animated(data-animate='fadeInUp') www.dede58.com
+                    li.s3
+                        img(src='/public/images/home/banner3.jpg')
+                        .ban-txt
+                            h2.animated(data-animate='fadeInDown') 高端定制 品牌设计
+                            h3.animated(data-animate='fadeInRight') Corporate website
+                            h4.animated(data-animate='fadeInUp') 某某致力于为客户提供最具有竞争力的网站，将每个案例都做成经典。
+
+        .row1.fix
+            .wp
+                .tit-i
+                    h3 我们的服务
+                    h5
+                        | WEBTHINK 
+                        span SERVICE
+                ul.ul-icon-i
+                    li.li1
+                        .pad
+                            a(href='')
+                                span
+                                h3 高端网站建设
+                                em
+                                p 根据用户的需求、市场状况、企业情况提供专业化的网站策划、交互设计、技术和营销解决方案。
+                                .pic
+                                    img(src='/public/images/home/m1.png')
+                                    img.pic-icon(src='/public/images/home/m2.png')
+                    li.li2
+                        .pad
+                            a(href='')
+                                span
+                                h3 手机网站建设
+                                em
+                                p 在移动互联时代，我们得出“简单使用，精彩体验”的移动应用开发理念，创造无线时代的精彩互联。
+                                .pic
+                                    img(src='/public/images/home/m1.png')
+                                    img.pic-icon(src='/public/images/home/m4.png')
+                    li.li3
+                        .pad
+                            a(href='')
+                                span
+                                h3 微信应用开发
+                                em
+                                p 为客户提供全方位的移动端营销服务，微信公众平台开发，微站设计。
+                                .pic
+                                    img(src='/public/images/home/m1.png')
+                                    img.pic-icon(src='/public/images/home/m6.png')
+                    li.li4
+                        .pad
+                            a(href='')
+                                span
+                                h3 手机APP开发
+                                em
+                                p 按客户意图来定制开发app系统，IOS 安卓任您挑选，持续为企业无线创造新价值。
+                                .pic
+                                    img(src='/public/images/home/m1.png')
+                                    img.pic-icon(src='/public/images/home/m8.png')
+        .row2.fix
+            .wp
+                .tit-i
+                    h3 我们的案例
+                    h5
+                        span case
+                        |  of us
+                .case-i
+                    .case-i-r(style='width: 100%;')
+                        ul.ul-case-i
+                            li
+                                a(href='a/kehuanli/ruanjianjiemian/17.html')
+                                    .pic
+                                        img(src='/public/images/home/1-1604211551200-L.jpg')
+                                    .hover
+                                        b
+                                        .txt
+                                            img(src='/public/images/home/logo_small.png')
+                                            h3 微健智能跑步机应用
+                            li
+                                a(href='a/kehuanli/ruanjianjiemian/16.html')
+                                    .pic
+                                        img(src='/public/images/home/1-1604211550560-L.jpg')
+                                    .hover
+                                        b
+                                        .txt
+                                            img(src='/public/images/home/logo_small.png')
+                                            h3 米豆教育
+                            li
+                                a(href='a/kehuanli/ruanjianjiemian/15.html')
+                                    .pic
+                                        img(src='/public/images/home/1-1604211550350-L.jpg')
+                                    .hover
+                                        b
+                                        .txt
+                                            img(src='/public/images/home/logo_small.png')
+                                            h3 优品汇手机助手
+                            li
+                                a(href='a/kehuanli/yidongAPP/14.html')
+                                    .pic
+                                        img(src='/public/images/home/1-1604211549540-L.jpg')
+                                    .hover
+                                        b
+                                        .txt
+                                            img(src='/public/images/home/logo_small.png')
+                                            h3 Jackery app
+                            li
+                                a(href='a/kehuanli/yidongAPP/13.html')
+                                    .pic
+                                        img(src='/public/images/home/1-1604211549300-L.jpg')
+                                    .hover
+                                        b
+                                        .txt
+                                            img(src='/public/images/home/logo_small.png')
+                                            h3 我开始健身app
+                            li
+                                a(href='a/kehuanli/wangzhansheji/12.html')
+                                    .pic
+                                        img(src='/public/images/home/1-160421154R70-L.jpg')
+                                    .hover
+                                        b
+                                        .txt
+                                            img(src='/public/images/home/logo_small.png')
+                                            h3 iPin图片社区
+                            li
+                                a(href='a/kehuanli/wangzhansheji/11.html')
+                                    .pic
+                                        img(src='/public/images/home/1-160421154J50-L.jpg')
+                                    .hover
+                                        b
+                                        .txt
+                                            img(src='/public/images/home/logo_small.png')
+                                            h3 零担速配
+                            li
+                                a(href='a/kehuanli/wangzhansheji/10.html')
+                                    .pic
+                                        img(src='/public/images/home/1-160421154F90-L.jpg')
+                                    .hover
+                                        b
+                                        .txt
+                                            img(src='/public/images/home/logo_small.png')
+                                            h3 趣逛地图
+                    .c
+                    .more-i
+                        a(href='a/kehuanli/index.htm')
+        .row3.news-bg
+            .wp
+                .tit-i.tit-i-1
+                    h3 最新动态
+                    h5
+                        | our 
+                        span news
+                ul.ul-news-i
+                    li
+                        .pad
+                            .txt
+                                span
+                                    em 04/21
+                                    | 2016
+                                h3
+                                    a(href='a/xinwendongtai/anligengxin/31.html') 三星优异财报背后的隐忧：
+                                p 三星在周三发布了2015财年第三财季的财报，运营利润同比大增了79.8%至63亿美元，受到财报的刺...
+                                a.more(href='a/xinwendongtai/anligengxin/31.html')
+                            .hover
+                                .img(style='background: url(/public/images/home/1-1604211605430-L.jpg) 0 0 /100% 100% no-repeat;background: url(/public/images/home/1-1604211605430-L.jpg) 0 0 no-repeat\9;')
+                                .pad
+                                    h3
+                                        a(href='a/xinwendongtai/anligengxin/31.html') 三星优异财报背后的隐忧：
+                                    p 三星在周三发布了2015财年第三财季的财报，运营利润同比大增了79.8%至63亿美元，受到财报的刺...
+                    li
+                        .pad
+                            .txt
+                                span
+                                    em 04/21
+                                    | 2016
+                                h3
+                                    a(href='a/xinwendongtai/anligengxin/30.html') 滴滴拿牌照：解读专车“上
+                                p 10月8日下午，上海市交通委向滴滴快的专车平台颁发了网络约租车（俗称专车）平台经营资格...
+                                a.more(href='a/xinwendongtai/anligengxin/30.html')
+                            .hover
+                                .img(style='background: url(/public/images/home/1-1604211605220-L.jpg) 0 0 /100% 100% no-repeat;background: url(/public/images/home/1-1604211605220-L.jpg) 0 0 no-repeat\9;')
+                                .pad
+                                    h3
+                                        a(href='a/xinwendongtai/anligengxin/30.html') 滴滴拿牌照：解读专车“上
+                                    p 10月8日下午，上海市交通委向滴滴快的专车平台颁发了网络约租车（俗称专车）平台经营资格...
+                    li
+                        .pad
+                            .txt
+                                span
+                                    em 04/21
+                                    | 2016
+                                h3
+                                    a(href='a/xinwendongtai/anligengxin/29.html') 黄晓明&Angelababy：男VC娶
+                                p 作者：王珑娟 来源：界 10月1日见证了创投圈最励志的投资41岁者刘强东在澳洲迎娶了22岁天使...
+                                a.more(href='a/xinwendongtai/anligengxin/29.html')
+                            .hover
+                                .img(style='background: url(/public/images/home/1-1604211604450-L.jpg) 0 0 /100% 100% no-repeat;background: url(/public/images/home/1-1604211604450-L.jpg) 0 0 no-repeat\9;')
+                                .pad
+                                    h3
+                                        a(href='a/xinwendongtai/anligengxin/29.html') 黄晓明&Angelababy：男VC娶
+                                    p 作者：王珑娟 来源：界 10月1日见证了创投圈最励志的投资41岁者刘强东在澳洲迎娶了22岁天使...
+                    li
+                        .pad
+                            .txt
+                                span
+                                    em 04/21
+                                    | 2016
+                                h3
+                                    a(href='a/xinwendongtai/anligengxin/28.html') 虚拟现实那么热，距离VR游
+                                p 谈 及VR虚拟现实，相信大伙并不会感觉到陌生。伴随着今年全球四大展会陆续拉下帷幕，VR虚拟...
+                                a.more(href='a/xinwendongtai/anligengxin/28.html')
+                            .hover
+                                .img(style='background: url(/public/images/home/1-1604211604220-L.jpg) 0 0 /100% 100% no-repeat;background: url(/public/images/home/1-1604211604220-L.jpg) 0 0 no-repeat\9;')
+                                .pad
+                                    h3
+                                        a(href='a/xinwendongtai/anligengxin/28.html') 虚拟现实那么热，距离VR游
+                                    p 谈 及VR虚拟现实，相信大伙并不会感觉到陌生。伴随着今年全球四大展会陆续拉下帷幕，VR虚拟...
+                .c
+                .news-more
+                    a(href='a/xinwendongtai/index.htm') load more
+        .row4.fix
+            .wp
+                .tit-i
+                    h3 联系我们
+                    h5
+                        span contact
+                        |  Maker Cloud
+                .contact-l
+                    ul.ul-contact
+                        li.li1 深圳市南山区幸福大道万达广场88-34
+                        li.li2
+                            a(href='tel:1532568999') 15325329999 (咨询) / 
+                            a(href='tel:023-63695689')
+                                | 023-63695689 (售后)
+                                br
+                            a(href='tel:400-500-8888') 400-500-8888 (咨询)
+                        li.li3
+                            a(href='mailto:329435596@qq.com') 88889999@qq.com
+                .contact-r
+                    form.contact-form()
+                        input(type='hidden', name='action', value='post')
+                        input(type='hidden', name='diyid', value='1')
+                        input(type='hidden', name='do', value='2')
+                        div
+                            input#name.inp.l(type='text', name='name', placeholder='您的姓名')
+                            input#tel.inp.r(type='text', name='tel', placeholder='您的联系方式')
+                        textarea#nr(cols='30', rows='10', name='nr')
+                        input#sub.sub(type='submit', value='提交您的需求')
+        .map
+            .map-s
+                a.btn(href='javascript:void(0);')
+                    em
+                    | 点击展开地图
+            .map-pop
+                a.btn-down(href='javascript:void(0);')
+                .map-bg1
+                .map-bg2
+                #map.map-i(style='width:100%; height: 100%;')
+    .c
+
+
+
+block script
+    script.
+        $('.ul-news-i li').hover(function () {
+            $(this).toggleClass('on');
+        })
+        $('.ul-icon-i li').hover(function () {
+            $(this).find('img:first').fadeIn(100);
+            $(this).find('.pic-icon').animate({ top: 0 });
+        }, function () {
+            $(this).find('.pic-icon').animate({ top: -134 });
+            $(this).find('img:first').fadeOut(100);
+        })
+
+        $('.case-img').hover(function () {
+            $(this).toggleClass('on');
+        })
+
+        $(' .btn').click(function () {
+            $('.map-pop').show();
+            $(this).parents('.map').addClass('map-big-i');
+            var winW = $(window).width();
+            var winH = $(window).height();
+            if (winW < 768) {
+                $('.map-pop').height($(window).height()+200);
+                $('.map-big-i').height($(window).height() +200);
+                $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+            } else {
+
+                $('.map-pop').height($(window).height());
+                $('.map-big-i').height($(window).height());
+                $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+            }
+            initMap();
+        })
+        $('.map .btn-down').click(function () {
+            $('.map-pop').hide();
+            $(this).parents('.map').removeClass('map-big-i');
+            $('.map').height('107');
+        })
